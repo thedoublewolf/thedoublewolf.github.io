@@ -104,8 +104,8 @@ textarea {
 }
 
 .logo {
-    height: 4rem;
-    width: 4rem;
+    height: 12rem;
+    display: block;
 }
 
 .about {
