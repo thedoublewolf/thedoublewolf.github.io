@@ -71,7 +71,7 @@ video {
 fieldset {
     border: 0;
     margin: 0;
-    padding: 4rem 0 4rem 4rem;
+    padding: 0;
 }
 
 /*
@@ -206,8 +206,15 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media (min-width: 72em) .container {
+    max-width: 33.33%;
+}
+
+@media (min-width: 64em) .container {
+    padding-top: 4rem;
+    padding-right: 0px;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
 }
 
 @media print,
