@@ -102,6 +102,10 @@ textarea {
     color: #424242;
 }
 
+.container {
+    padding: 4rem;
+}
+
 .logo {
     height: 4rem;
     width: 4rem;
