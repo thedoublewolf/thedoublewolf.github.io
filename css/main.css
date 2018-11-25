@@ -116,9 +116,13 @@ textarea {
     margin-inline-end: 0px;
 }
 
-a {
+.logo {
     margin-right: 2rem;
+}
+
+a {
     color: #3700B3;
+    text-decoration: none;
 }
 
 
